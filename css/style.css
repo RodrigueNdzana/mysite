@@ -1,0 +1,1300 @@
+@import url('https://fonts.googleapics.com/css?family=Roboyo:700');
+/* -- start of the CSS code----- */
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* ---- nav bar css code ----- */
+.link a{
+    color: gray;
+    float:right;
+    padding: 12px;
+    text-decoration-line: none;
+}
+.link a:hover{
+    color: orange;
+    border-top: 2px solid orange !important;
+    padding-top: 4px !important;
+    
+}
+hr{
+    margin-top: 42px;
+    color: gray;
+    width: 91%;
+}
+.toggle{
+    display: none;
+    cursor: pointer;
+    float: right;
+    font-size: 23px;
+    line-height: 50px;
+    color: white;
+}
+.navbar{
+    background-color: rgb(37, 37, 37);
+    overflow: hidden;
+    margin: 0px auto;
+}
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    margin-left: -100px;
+}
+nav{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    color: black;
+    transition: -5s;
+    background: #252525;
+}
+nav .logo{
+    float: left;
+    transition: 0.4s;
+}
+ nav ul{
+    float:right;
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+.logo h2{
+    color: white;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    line-height: 80px;
+    color:white;
+    padding: 5px 20px;
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li a:hover, .active{
+    color:orange;
+    border-bottom: 2px solid orange !important;
+    padding-bottom: 20px !important;
+}
+nav .perso_info_heading{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 99px;
+    text-decoration: underline;
+}
+.bg_color{
+    width: 100%;
+    height: 81vh;
+    background-color: #252525;
+    background-size: cover;
+}
+.image{
+    width: 113%;
+    /* height: 331px; */
+    margin-left: -5em;
+    height: 96vh;
+}
+/* --- personal trainer benefit */
+.personalInfo{
+    width: 47%;
+    margin: auto;
+}
+.personalInfo p{
+    color: white;
+    font-size: 18px;
+    margin-top: -107px;
+    text-align: center;
+    line-height: 27px;
+}
+.roundsetting{
+    background-color: orange;
+    border-radius: 50%;
+    display: block;
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    margin-left: -1em;
+    margin-top: -4px;
+}
+.roundsetting2{
+    background-color: orange;
+    border-radius: 50%;
+    display: block;
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    margin-left: -6em;
+    /* margin-top:-77px; */
+}
+.roundsetting1{
+    background-color: orange;
+    border-radius: 50%;
+    display: block;
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    margin-left: -13em;
+    margin-top: -7px;
+}
+/* ----Personal Trainer package info sections---  */
+#pt_packages{
+    text-align: center;
+    color:orange;
+    margin-top: 5em;
+}
+#pt_packagesHeading{
+    text-align: center;
+    font-size: 54px;
+    font-weight: lighter;
+}
+#pt_packagesHeading1{
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.kickstart{
+    position: relative;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(219, 219, 220);
+    border-image: initial;
+    border-radius: 3px;
+    padding: 40px 32px 25px;
+    transition: all 0.2s ease 0s;
+    margin: auto;
+    box-shadow: 4px 4px 4px 4px lightgrey;
+    
+}
+.PersonalTrainer_info{
+    margin-top: 5em;
+    /* padding: 4em; */
+    margin-left: 53px;
+}
+#PERSONAL_TRAINERS{
+    color: orange;
+}
+#PERSONAL_TRAINERSHeading{
+    font-size: 54px;
+    font-weight: 200;
+}
+#PERSONAL_TRAINERDescription{
+    font-family: sans-serif;
+    line-height: 30px;
+    font-size: 21px;
+}
+button{
+    animation-name: display;
+    display: none;
+}
+@keyframes display{
+    
+}
+#seperation_right{
+    margin-top: -32px;
+    width: 34%;
+    margin-right: 1px;
+}
+#seperation_left{
+    margin-top: -11px;
+    width: 34%;
+    margin-left: 7px;
+}
+#programprice{
+    display: flex;
+    /* margin: auto; */
+    width: 100%;
+    margin-top: 4em;
+}
+.kickstart:hover{
+    box-shadow: 4px 4px 4px 4px orange;
+    transition: .9s;
+    transform: scale(.9s);
+}
+.kickstart p{
+    text-align: center;
+    /* margin: 41px; */
+    margin-left: 110px;
+    line-height: 27px;
+}
+#dropdown{
+    color: orange; 
+    width: 17%;
+    height: 40px;
+    padding: -22px;
+}
+select{
+    color: orange
+}
+/* ---- Css footer session of the page */
+#Customer_Support{
+    background-color: rgb(47, 47, 48);
+    padding: 26px;
+    margin-top: 7em;
+    width: 100%;
+}
+#Customer_Support span{
+    color:gray;
+}
+#Customer_Support p{
+    color:white;
+}
+.Customer {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-left: -27px;
+}
+#Opening_hours{
+    margin-top: -70px;
+    text-align: center;
+}
+.weekday{
+    margin-left: -59px;
+}
+#secondfooter{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    /* padding: 16px; */
+    height: 360px;
+    width: 100%;
+}
+.footerright{
+    margin-top: 68px;
+    color:white;
+}
+.footercenter{
+    margin: 67px auto;
+}
+.footermiddle{
+    margin: 67px auto;
+}
+.footerleft{
+    margin: 67px auto;
+}
+#secondfooter ul{
+    list-style: none;
+
+}
+#secondfooter li a{
+    text-decoration-line: none;
+    line-height: 24px;
+}
+.footercenter li a{
+    color: white;
+}
+.footermiddle li a{
+    color: gray;
+}
+.footercenter li a:hover{
+    color: orange;
+}
+.footermiddle li a:hover{
+    color: orange;
+}
+#footertertitories{
+    background: black;
+    color: white;
+    padding: 1px;
+}
+#footertertitories p{
+    color: gray;
+    margin-left: 47px;
+    font-size: 13px;
+}
+#footertertitories h3{
+    font-size: 13px;
+    margin-left: 47px;
+}
+/* ----320px Responsiveness for Personal Training -----  */
+@media(width:320px){
+    nav .perso_info_heading{
+        padding-top: 233px;
+        font-size: 50px;
+    }
+    .personalInfo p{
+        font-size: 46px;
+        width: 1437%;
+        line-height: 59px;
+        margin-left: -65px;
+        text-align: initial;
+
+    }
+    .personalInfo{
+        margin-top: 150px;
+    }
+    .image{
+        width: 813%;
+        height: 136vh;
+        margin-left: -7em;
+    }
+    .main_container{
+        margin-top: 25em;
+    }
+    .benefit1{
+        display: none;
+    } 
+    .benefit2 p{
+        font-size: 53px;
+    }
+    .benefit3 p{
+        font-size: 45px;
+    }
+    .roundsetting1{
+        width: 40%;
+        height: 23%; 
+    }
+    .benefit3{
+        margin-left: 34em;
+    }
+    .items2{
+        margin-left: 24em;
+    }
+    
+    
+    #pt_packages{
+        font-size: 37px;
+        width: 176%;
+        text-align: end;
+    }
+    #pt_packagesHeading{
+        font-size: 89px;
+        margin-right: -7em;
+        font-weight: 400;
+    }
+    #pt_packagesHeading1{
+        font-size: 37px;
+        width: 251%;
+        text-align: end;
+    }
+    .kickstart{
+        width: 777px;
+        margin-left: 50px;
+        margin-top: 63px;
+    }
+    .kickstart img{
+        width: 103%;
+    }
+    .kickstart h2{
+        font-weight: 500;
+        font-size: 65px;
+    }
+    .kickstart h4{
+        color: orange;
+        font-size: 40px;
+    }
+    .kickstart p{
+        font-size: 39px;
+        line-height: 59px;
+    }
+    #programprice{
+        display: block;
+    }
+    #PERSONAL_TRAINERS{
+        font-size: 37px;
+        width: 156%;
+    }
+    #PERSONAL_TRAINERSHeading{
+        font-size: 89px;
+        width: 230%;
+    }
+    #PERSONAL_TRAINERDescription{
+        font-size: 44px;
+        width: 335%;
+        line-height: 59px;
+    }
+    #Customer_Support p{
+        font-size: 43px;
+        margin-left: 89px;
+    }
+    #Customer_Support .Customer{
+        font-size: 47px;
+        color: white;
+        margin-left: 193px;
+    }
+    #Customer_Support{
+        width: 285%;
+    }
+    #Opening_hours{
+        margin-top: 6px;
+        text-align: justify;
+    }
+    .footerright h2{
+        font-size: 57px;
+        text-align: center;
+    }
+    #secondfooter li{
+        font-size: 47px;
+        margin-left: 78px;
+        line-height: 65px;
+    }
+    #secondfooter{
+        width: 303%;
+        display: block;
+        height: auto;
+        margin-top: -69px;
+    }
+    #footertertitories p{
+        font-size: 32px;
+    }
+    #footertertitories h3{
+        font-size: 36px;
+    }
+    #footertertitories{
+        width: 301%;
+        margin-top: -68px;
+    }
+}
+/* ----375px Responsiveness for Personal Training -----  */
+@media(width:375px){
+    nav .perso_info_heading{
+        padding-top: 233px;
+        font-size: 50px;
+    }
+    .personalInfo p{
+        font-size: 46px;
+        width: 1437%;
+        line-height: 59px;
+        margin-left: -65px;
+        text-align: initial;
+
+    }
+    .personalInfo{
+        margin-top: 150px;
+    }
+    .image{
+        width: 813%;
+        height: 136vh;
+        margin-left: -7em;
+    }
+    .main_container{
+        margin-top: 25em;
+    }
+    .benefit1{
+        display: none;
+    } 
+    .benefit2 p{
+        font-size: 53px;
+    }
+    .benefit3 p{
+        font-size: 45px;
+    }
+    .roundsetting1{
+        width: 40%;
+        height: 23%; 
+    }
+    .benefit3{
+        margin-left: 34em;
+    }
+    .items2{
+        margin-left: 24em;
+    }
+    
+    
+    #pt_packages{
+        font-size: 37px;
+        width: 176%;
+        text-align: end;
+    }
+    #pt_packagesHeading{
+        font-size: 89px;
+        margin-right: -7em;
+        font-weight: 400;
+    }
+    #pt_packagesHeading1{
+        font-size: 37px;
+        width: 251%;
+        text-align: end;
+    }
+    .kickstart{
+        width: 1114px;
+        margin-left: 99px;
+        margin-top: 63px;
+    }
+    .kickstart img{
+        width: 103%;
+    }
+    .kickstart h2{
+        font-weight: lighter;
+        font-size: 89px;
+    }
+    .kickstart h4{
+        color: orange;
+        font-size: 54px;
+    }
+    .kickstart p{
+        font-size: 39px;
+        line-height: 59px;
+    }
+    #programprice{
+        display: block;
+    }
+    #PERSONAL_TRAINERS{
+        font-size: 52px;
+        width: 206%;
+    }
+    #PERSONAL_TRAINERSHeading{
+        font-size: 120px;
+        width: 263%;
+    }
+    #PERSONAL_TRAINERDescription{
+        font-size: 60px;
+        width: 396%;
+        line-height: 82px;
+    }
+    #Customer_Support p{
+        font-size: 43px;
+        margin-left: 89px;
+    }
+    #Customer_Support .Customer{
+        font-size: 47px;
+        color: white;
+        margin-left: 193px;
+    }
+    #Customer_Support{
+        width: 285%;
+    }
+    #Opening_hours{
+        margin-top: 6px;
+        text-align: justify;
+    }
+    .footerright h2{
+        font-size: 57px;
+        text-align: center;
+    }
+    #secondfooter li{
+        font-size: 47px;
+        margin-left: 78px;
+        line-height: 65px;
+    }
+    #secondfooter{
+        width: 303%;
+        display: block;
+        height: auto;
+        margin-top: -69px;
+    }
+    #footertertitories p{
+        font-size: 32px;
+    }
+    #footertertitories h3{
+        font-size: 36px;
+    }
+    #footertertitories{
+        width: 301%;
+        margin-top: -68px;
+    }
+}
+/* ----768px Responsiveness for Personal Training -----  */
+@media(width:768px){
+    .link a{
+        font-size: 20px;
+    }
+    .bg_color{
+        width: 122%;
+        height: 108vh;
+    }
+    .link{
+        margin-right: 50px;
+    }
+    .logo h2{
+        font-size: 40px;
+        margin-left: 34px;
+    }
+    .personalInfo{
+        width: 150%;
+        float: right;
+        margin-right: -73px;
+    }
+    .personalInfo p{
+        font-size: 22px;
+        margin-left: 122px;
+        text-align: justify;
+        width: 108%;
+        line-height: 32px;
+        margin-top: -184px;
+    }
+    nav .perso_info_heading{
+        padding: 174px;
+        font-size: 29px;
+        margin-top: 75px
+    }
+
+    .image{
+        width: 158%;
+        height: 100vh;
+        margin-left: -5em;
+    }
+    #pt_packages{
+        font-size: 18px;
+    }
+    #pt_packagesHeading{
+        font-size: 3em;
+        margin-left: 54px; 
+    }
+    #pt_packagesHeading1{
+        font-size: 20px;
+        margin-left: 48px;
+    }
+    .main_container{
+        width: max-content;
+        margin-left: -88px;
+    }
+    /* .main_container{
+        margin-left: -5em;
+        margin-top: 30em;
+    } */
+    .benefit1 h2{
+        font-size: 37px;
+        line-height: 42px;
+    }
+    .benefit1 h3{
+        font-size: 31px;
+    }
+    .benefit2 p{
+        font-size: 41px;
+        margin-left: 6px;
+    }
+    
+    .benefit3{
+        float: left;
+        margin-left: 21em;
+    }
+    .benefit3 p{
+        font-size:41px;
+        width: 0%;
+    }
+    .items{
+        width: 127%;
+    }
+    .roundsetting{
+        width: 6%;
+        margin-left: -45px;
+    }
+    .roundsetting1{
+        width: 6%;
+        margin-left: -12em;
+    }
+    #programprice{
+        display: contents;
+    }
+    .kickstart{
+        margin-top: 68px;
+        width: 489px;
+        margin-left: 141px;
+    }
+    .kickstart img{
+        width: 100%;
+    }
+    .kickstart h2{
+        font-weight: 500;
+        font-size: 36px;
+    }
+    .kickstart h4{
+        color: orange;
+        font-size: 20px;
+    }
+    #seperation_right{
+        height: 3px;
+        background: gray;
+        margin-top: -42px;
+    }
+    #seperation_left{
+        height: 3px;
+        background: gray;
+    }
+    .kickstart p{
+        font-size: 22px;
+        line-height: 41px;
+    }
+    .PersonalTrainer_info{
+        width: 115%;
+    }
+    #PERSONAL_TRAINERS{
+        font-size: 19px;
+    }
+    #PERSONAL_TRAINERSHeading{
+        font-size: 51px;
+    }
+    #PERSONAL_TRAINERDescription{
+        line-height: 37px;
+        font-size: 23px;
+    }
+    #Opening_hours{
+        margin-left: 176px;
+    }
+    /* #Customer_Support p{
+        font-size: 35px;
+    } */
+    #Customer_Support .Customer{
+        color: white;
+        font-size: 20px;
+    }
+    #Customer_Support{
+        width: 116%;
+    }
+    #secondfooter{
+        width: 123%;
+        margin-top: -1px;
+    }
+    #footertertitories{
+        width: 122%;
+    }
+}
+/*---contact form css of the page----*/
+.ContactForm{
+   
+    width: 76%;
+    margin: -163px auto;
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px orange;
+    height: 695px;
+}
+.title h1{
+    text-align: center;
+}
+
+.txtb {
+    border: 2px solid #111627;
+    margin: 13px auto;
+    padding: 22px;
+    border-radius: 11px;
+    width: 56%;
+    height: 4%;
+
+}
+.btn{
+    width: 31%;
+    margin: auto;
+}
+
+.txtb textarea {
+    width: 387px;
+    height: 21px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input,.txtb text area{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+button{
+    /* display: inline-block;
+    background-color: #c6d2f8;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    height: 59px;
+    cursor: pointer; */
+    background: none;
+    color: #ccc;
+    width: 240px;
+    height: 80px;
+    border: 1px solid #338033;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: -6s;
+   
+}
+button:focus{
+    outline: none;
+}
+button::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .5);
+    width:60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skew(-15deg);
+
+    
+}
+button::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    filter: blur(30px);
+    opacity:0;
+    top:0;
+    transform: translate(-100px)scaleX(-15deg);
+}
+button:hover{
+    background: #111627;
+    cursor: pointer;
+}
+button:hover::before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+button:hover::after{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+.txtb:hover,.btn::active{
+    background: #111627;
+}
+.send{
+    font-size: 53px;
+    margin: 1px;
+    color: red;
+    opacity:0.3;
+}
+/* --- Main benefit container */
+.main_container{
+    width: 100%;
+    margin-top: 52%;
+    display: flex;
+}
+.main_container {
+    margin-top: 29em;
+}
+.items{
+    margin-top: -24px;
+    margin-left: -6em;
+    width: 50%;
+}
+.items2{
+    margin-top: -24px;
+    margin-left: -6em;
+    width: 50%;
+}
+.benefit1{
+    margin-left: 92px;
+    width: 20%;
+}
+.benefit1 h3{
+    color: orange;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.benefit1 h2{
+    font-size: 51px;
+    line-height: 85px;
+}
+.benefit2{
+    float: left;
+}
+.benefit2 p {
+    font-size: 20px;
+    /* margin-left: 144px; */
+    margin-top: 1em;
+    margin-left: 54px;
+}
+.benefit3 p {
+    font-size: 20px;
+    /* margin-left: 144px; */
+    margin-top: 2em;
+    margin-left: -186px;
+}
+.benefit3{
+
+    font-size: 20px;
+    margin-left: 144px;
+    float: left;
+}
+.benefit2 {
+    margin-top: 20px;
+    width: 38%;
+    /* display: contents; */
+    margin-left: 10em;
+}
+/* --Toggle */
+.toggle{
+    cursor: pointer;
+    float: right;
+    font-size: 23px;
+    line-height: 50px;
+    color: white;
+    display: none;
+}
+
+/* @media(max-width:990px){
+    ul{
+        padding: 0 20px;
+    }
+    .toggle{
+        display: block;
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        height: cal(100vh -50px);
+        top: 50px;
+        left: -100%;
+        background: rebeccapurple;
+        transition: 0.5s;
+    }
+    ul{
+        display: block;
+        text-align: center;
+    }
+    ul a{
+        border: 1px solid black;
+
+    }
+    ul.active{
+        left: 0;
+    }
+} */
+@media(max-width:1440px){
+    .main_container{
+        margin-top: 31em;
+    }
+}
+
+@media(max-width:700px){
+    .bg_color{
+        width: 216%;
+        height: 89vh;
+    }
+}
+/* -----------Css for classes information ----------- */
+.personalInfo_Classes{
+    width: 47%;
+    padding: 103px;
+}
+.perso_info_heading_Classes{
+    font-size: 42px;
+    width: 113%;
+    margin-left: -97px;
+    color: white;
+    padding: 99px;
+}
+.personalInfo_Classes p{
+    color: white;
+    font-size: 20px;
+    margin-top: -107px;
+    /* text-align: center; */
+    line-height: 27px;
+}
+#class{
+    margin-top: -15em;
+    color: orange;
+}
+.cointain{
+    margin: 9em auto;
+    width: 98%;
+    display: flex;
+    margin-left: 9em;
+}
+.left{
+    width: 371px;
+    background-color: #252525;
+    padding: 74px;
+    /* margin: auto; */
+    height: 37vh;
+}
+.left h3{
+    font-size: 41px;
+    font-weight: 100;
+    color: white;
+    margin-top: -7px;
+}
+.left p{
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+}
+.left i{
+    color: white;
+}
+.left span{
+    color: white;
+    font-weight: bolder;
+}
+.cointain1{
+    margin: -5em auto;
+    width: 98%;
+    display: flex;
+    margin-left: 9em;
+}
+/* ----- 320 px width screen -----  */
+@media(max-width:320px){
+    .logo h2{
+        font-size: 60px;
+    }
+    .bg_color{
+        width: 301%;
+        height: 292vh;
+    }
+    .perso_info_heading_Classes{
+        font-size: 77px;
+        width: 124%;
+    }
+    #class{
+        margin-top: -21em;
+        font-size: 56px;
+    }
+    .personalInfo_Classes p{
+        font-size: 52px;
+        line-height: 76px;
+    }
+    .personalInfo_Classes{
+        width: 513%;
+        margin-left: -103px;
+        margin-top: 162px;
+    }
+    .cointain{
+        display: block;
+        margin-left: 0;
+    }
+    .left{
+        width: 254%;
+        height: 146vh;
+    }
+    .left h3{
+        font-size: 107px;
+    }
+    .left p{
+        font-size: 52px;
+        line-height: 67px;
+    }
+    .left span{
+        font-size: 52px;
+    }
+    .left i{
+        font-size: 52px;
+    }
+    .right img{
+        width: 301%;
+    }
+    .cointain1{
+        display: block;
+        margin-left: 5px;
+    }
+    .link{
+        margin-right: 108px;
+    }
+    .link a{
+        font-size: 37px;
+    }
+}
+/* ----css for Membership------- */
+.bg_color-membership{
+    width: 100%;
+    height: 115vh;
+    background-color: #252525;
+    background-size: cover;
+}
+.membership{
+    background-color: rgb(252, 217, 221);
+    padding: 10px;
+    width: 112%;
+    margin-top: 9em;
+    border-radius: 6px;
+    margin-left: -79px;
+    margin-top: 224px;
+}
+.membership p{
+    font-size: 22px;
+}
+.membershipcontainer{
+    background: white;
+    width: 95%;
+    margin: -68px auto;
+    margin-left: 35px;
+    display: inline-flex;
+
+}
+.membership_price span{
+    font-size: 22px;
+    color: orange;
+}
+.membership_price_border span{
+    font-size: 22px;
+    color: orange;
+
+}
+/* .membership_price p{
+    font-size: 12px;
+    margin-top: -2em;
+    margin-left: 2em;
+} */
+.membership_price{
+    padding: 56px;
+    margin-top: -58px;
+    width: 25%;
+    /* border: 2px solid gray; */
+    /* margin-left: 0em; */
+    margin-top: 0px;
+    /* margin-left: 79px; */
+    text-align: center;
+
+}
+.membership_price h2{
+    font-size: 30px;
+    margin-left: -24px;
+}
+.membership_price_border h2{
+    font-size: 30px;
+    margin-left: -24px;
+}
+.membership_price_border{
+    padding: 51px;
+    /* margin-top: -58px; */
+    width: 25%;
+    /* border: 2px solid gray; */
+    /* margin-left: 0em; */
+    margin-top: 1px;
+    /* margin-left: 79px; */
+    border-left: 3px solid gray;
+    text-align: center;
+}
+.membership_price_border h4{
+    font-size: 12px;
+    margin-top: -2em;
+    margin-left: 2em;
+}
+.membership_price h4{
+    font-size: 12px;
+    margin-top: -2em;
+    margin-left: 2em;
+}
+.membershiplistofitem{
+    margin-top: 6em;
+    display: flex;
+    margin-left: 11em;
+    width: 83%;
+    flex-direction: row;
+}
+.membershiplistofitem ul{
+    list-style: none;
+}
+.membershiplistofitem li{
+    line-height: 45px;
+    margin-left: -37px;
+}
+.membershiplistofitem p{
+    margin-left: -53px;
+}
+.listdivclub{
+    margin-left: -3em;
+    width: 35%;
+}
+.listdivpremier_boarder{
+    margin-left: -52px;
+    width: 34%;
+    border-left: 3px solid gray;
+}
+.listdivcollection_boarder{
+    width: 33%;
+    margin-left: 43px;
+    border-left: 3px solid gray;
+}
+.listdivpremier_boarder p{
+    margin-left: 44px;
+}
+.listdivpremier_boarder li{
+    line-height: 38px;
+    margin-left: 50px;
+}
+.listdivcollection_boarder li{
+    line-height: 38px;
+    margin-left: 50px;
+}
+.listdivcollection_boarder p{
+    margin-left: 44px;
+}
+.menbershipline{
+    width: 100%;
+    height: 23px;
+    background: white;
+    margin-top: 75px;
+    border-top: none;
+}
+.rewardspattern{
+    text-align: center;
+    font-size: 33px;
+    font-weight: lighter;
+}
+.memberrewards{
+    display: flex;
+    margin: auto;
+    width: 69%;
+    
+}
+.discoverybenefit{
+    background: white;
+    padding: 68px;
+    box-shadow: 4px 4px 4px 4px lightgrey;
+}
+.discoverybenefit:hover{
+    box-shadow: 4px 4px 4px 4px orange;
+}
+.momentumreward{
+    background: white;
+    margin-left: 48px;
+    padding: 70px;
+    box-shadow: 4px 4px 4px 4px lightgrey;
+}
+.momentumreward:hover{
+    box-shadow: 4px 4px 4px 4px orange;
+}
+.memberrewards h2{
+    width: 5%;
+    margin-left: 96px;
+    line-height: 34px;
+}
+.memberrewards h3{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 19px;
+}
+.memberrewards p{
+    font-size: 17px;
+    text-align: center;
+}
+.searchlocation{
+    width: 100%;
+    height: 85vh;
+    background: white;
+    margin-top: 6em;
+}
+.searchlocation img{
+    margin-top: 23px;
+}
+/* --- 320 responsiveness of Memenbership */
+@media(width:320px){
+
+}
